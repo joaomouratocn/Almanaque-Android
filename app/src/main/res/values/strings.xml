@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Almanaque Android</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_core">CORE</string>
+    <string name="str_toast_snackBar">Toast/SnackBar</string>
+    <string name="str_show_toast">Show toast</string>
+    <string name="str_show_snackBar">Show snackBar</string>
+    <string name="str_sample_toast">Sample toast</string>
+    <string name="str_sample_sanckBar">Sample snackBar</string>
+    <string name="str_show_snackbar_with_action">Show snackBar with action</string>
+    <string name="str_sample_snackbar_with_action">Sample snackBar with action</string>
+    <string name="str_Undo">Undo</string>
+    <string name="str_success">Success!!!</string>
 </resources>

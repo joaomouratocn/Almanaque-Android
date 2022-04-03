@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="br.com.programadorjm.almanaqueandroid.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_toastSnackBar"
+            app:destination="@id/toastSnackBar" />
+    </fragment>
+    <fragment
+        android:id="@+id/toastSnackBar"
+        android:name="br.com.programadorjm.almanaqueandroid.toast_snackbar.ToastSnackBar"
+        android:label="fragment_toast_snack_bar"
+        tools:layout="@layout/fragment_toast_snack_bar" >
+        <action
+            android:id="@+id/action_toastSnackBar_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>
