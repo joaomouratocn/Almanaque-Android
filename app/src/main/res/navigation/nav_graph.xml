@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/mainFragment"
         android:name="br.com.programadorjm.almanaqueandroid.MainFragment"
-        android:label="fragment_main"
+        android:label="Almanaque android"
         tools:layout="@layout/fragment_main" >
         <action
             android:id="@+id/action_mainFragment_to_toastSnackBar"
@@ -17,10 +17,7 @@
     <fragment
         android:id="@+id/toastSnackBar"
         android:name="br.com.programadorjm.almanaqueandroid.toast_snackbar.ToastSnackBar"
-        android:label="fragment_toast_snack_bar"
+        android:label="Toast and SnackBar"
         tools:layout="@layout/fragment_toast_snack_bar" >
-        <action
-            android:id="@+id/action_toastSnackBar_to_mainFragment"
-            app:destination="@id/mainFragment" />
     </fragment>
 </navigation>
