@@ -24,5 +24,6 @@ class MainFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.btnToastSnackBar.setOnClickListener { navigateTo(R.id.action_mainFragment_to_toastSnackBar) }
+        binding.btnNotification.setOnClickListener { navigateTo(R.id.action_mainFragment_to_notifications) }
     }
 }

@@ -12,4 +12,18 @@
     <string name="str_sample_snackbar_with_action">Sample snackBar with action</string>
     <string name="str_Undo">Undo</string>
     <string name="str_success">Success!!!</string>
+    <string name="str_send_notification">Send notification</string>
+    <string name="str_update_notification">Update notification</string>
+    <string name="str_delete_notification">Delete notification</string>
+    <string name="str_notifications">Notifications</string>
+    <string name="str_my_test_notification">My test notification</string>
+    <string name="str_sample_text_notification">A sample text notification</string>
+    <string name="str_channel_name">Channel name</string>
+    <string name="str_channel_description">Channel description</string>
+    <string name="str_another_notification">Another notification</string>
+    <string name="str_sample_another_notification">Sample of another text notification</string>
+    <string name="str_notification_with_action">Notificaiton with action</string>
+    <string name="str_with_action">With action</string>
+    <string name="str_update">Update</string>
+    <string name="str_send_notification_with_action">Send notification with action</string>
 </resources>

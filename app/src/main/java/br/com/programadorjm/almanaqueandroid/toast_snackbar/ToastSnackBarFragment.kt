@@ -11,7 +11,7 @@ import br.com.programadorjm.almanaqueandroid.R
 import br.com.programadorjm.almanaqueandroid.databinding.FragmentToastSnackBarBinding
 import com.google.android.material.snackbar.Snackbar
 
-class ToastSnackBar : Fragment() {
+class ToastSnackBarFragment : Fragment() {
     lateinit var binding:FragmentToastSnackBarBinding
 
     override fun onCreateView(

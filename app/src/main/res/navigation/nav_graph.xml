@@ -13,11 +13,19 @@
         <action
             android:id="@+id/action_mainFragment_to_toastSnackBar"
             app:destination="@id/toastSnackBar" />
+        <action
+            android:id="@+id/action_mainFragment_to_notifications"
+            app:destination="@id/notifications" />
     </fragment>
     <fragment
         android:id="@+id/toastSnackBar"
-        android:name="br.com.programadorjm.almanaqueandroid.toast_snackbar.ToastSnackBar"
+        android:name="br.com.programadorjm.almanaqueandroid.toast_snackbar.ToastSnackBarFragment"
         android:label="Toast and SnackBar"
         tools:layout="@layout/fragment_toast_snack_bar" >
     </fragment>
+    <fragment
+        android:id="@+id/notifications"
+        android:name="br.com.programadorjm.almanaqueandroid.notifications.Notifications"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_notifications" />
 </navigation>

@@ -16,14 +16,21 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@android:color/holo_red_dark"
-            android:text="@string/str_core"
-            android:layout_marginBottom="4dp"/>
+            android:text="@string/str_core"/>
 
         <Button
             android:id="@+id/btn_toast_snackBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:text="@string/str_toast_snackBar"/>
+
+        <Button
+            android:id="@+id/btn_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/str_notifications"/>
 
     </LinearLayout>
 
